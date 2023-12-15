@@ -122,3 +122,9 @@ h1::first-letter {
 - specificity --> inline style > id > class > element
 - specifity is same => cascading
 */
+
+/*
+difference between descendant and child selector:
+- child --> can access only direct children (no nested)
+- descendant --> can access all children (can have nested)
+*/

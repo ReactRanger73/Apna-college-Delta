@@ -8,6 +8,19 @@
 - margin shorthand --> (same as padding)
 */
 
+/*
+- for making a circle using a div, make the height and width equal
+  and add --> border-radius: 50%;
+*/
+
+/*
+- block elements --> take up the entire block, can have both horizontal and vertical margins,
+                      can have height and width (example: <div>)
+- inline elements --> take up only as much space as required, can only have horizontal margin, 
+                      does not have any height or width (example: <span>)
+- can change display of elements using the "display" property (block, inline, block-inline)
+*/
+
 div {
   height: 200px;
   width: 500px;
