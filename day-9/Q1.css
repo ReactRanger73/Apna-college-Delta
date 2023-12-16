@@ -1,0 +1,24 @@
+#container {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  color: black;
+  font-size: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  /* flex-basis: 100px; */
+}
